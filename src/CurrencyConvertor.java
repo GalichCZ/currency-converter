@@ -80,7 +80,7 @@ public class CurrencyConvertor {
         URL url = new URL(GET_URL);
         HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
         httpURLConnection.setRequestMethod("GET");
-        httpURLConnection.setRequestProperty("apikey", "fbgmBDMui45if72mj51dmarBv5lg84Xk");
+        httpURLConnection.setRequestProperty("apikey", "");
         int responseCode = httpURLConnection.getResponseCode();
 
         if(responseCode == HttpURLConnection.HTTP_OK){
